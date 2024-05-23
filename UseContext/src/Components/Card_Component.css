@@ -1,0 +1,34 @@
+.card {
+    background-color: #f0efef;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 20px;
+}
+
+.delet-card {
+    color: red;
+    float: right;
+    padding: 50px;
+    font-size: 18px;
+    cursor: pointer
+}
+
+.price-counts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    font-weight: bold;
+}
+
+.select-dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cash-content {
+    float: right;
+    padding: 0px 50px;
+    color: red;
+}

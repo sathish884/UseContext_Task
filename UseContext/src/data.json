@@ -1,0 +1,16 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "price": "230",
+            "totalPrice": "00",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVLznYbbtoZsTxK9zfHuVg0qYAO3xoDLV3aCWCESYxVg&s"
+        },
+        {
+            "id": "2",
+            "price": "100",
+            "totalPrice": "00",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBcyLMCVdJrDnKRBHbQGPThoBcG0VskH_S0Cv6-vH9gA&s"
+        }
+    ]
+}

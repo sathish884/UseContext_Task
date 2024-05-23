@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { createContext } from 'react';
 import { Layout } from 'antd';
-import Header_Component from './Header_Component';
-import Card_Component from './Card_Component';
+import Header_Component from './Components/Header_Component';
+import Card_Component from './Components/Card_Component';
 const { Header, Content, Footer } = Layout;
+import ProductData from './data.json';
+
+export const ProductContext = createContext(null)
 
 function App() {
 
@@ -28,7 +31,10 @@ function App() {
             padding: '0 48px'
           }}
         >
-          <Card_Component />
+          <ProductContext.Provider value={ProductData}>
+            <Card_Component />
+          </ProductContext.Provider>
+
         </Content>
         <Footer
           style={{
